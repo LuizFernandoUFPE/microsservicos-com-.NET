@@ -1,0 +1,31 @@
+Material feito com base no treinamento de Introdução a microsserviços com .NET da DIO
+
+---------------------------------------------------------------------------
+
+Serviços são rápidos e fáceis para iniciar, possuem infraestrutura simples, e o um debug fascinante. Porém possuem problemas com merge-conclicts, problemas de memória, com bug, possuem baixa escalabilidade, etc... 
+
+---------------------------------------------------------------------------
+
+A escalabilidade vertical coloca o monolito em vários servidores, aumentando o custo de energia e memória. Mas a escalabilidade horizontal usa microsserviços para dividir o processo em pequenas partes funcionais, replicando quando necessário. 
+
+---------------------------------------------------------------------------
+
+O Manifesto Ágil surgiu em 2001, e o microsserviço em si é ágil. A estrutura de microsserviços permite o conceito de feedbacks rápidos, pois temos ciclos menores de desenvolvimento. 
+
+---------------------------------------------------------------------------
+
+Cada microsserviço possui seu banco de dados, o qual os domínios podem acessar. Os microsserviços trabalham com diferenciação de conceitos.
+
+---------------------------------------------------------------------------
+
+Microsserviços dependem apenas um do outro via APIs públicas. Os microsserviços podem(e devem) ser poliglotas em seus stacks, ou seja, permitir várias linguagens, devido a diversidade de negócios. 
+
+Microsserviços encapsulam os dados e os negócios, e devem possuir deploys independentes. Também trata isoladamente as falhas. 
+
+---------------------------------------------------------------------------
+
+Contexto Delimitado, os microsserviços estão intrisicamente ligados ao negócio para o qual ele está sendo aplicado, pois dessa forma conseguimos saber quem vai ter a responsabilidade por aquele domínio no negócio que estivermos trabalhando. 
+
+---------------------------------------------------------------------------
+
+
